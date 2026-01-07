@@ -1,44 +1,51 @@
-# Link-in-Bio-Analytics-Tool
+<!-- HERO BANNER (animated gradient feel) -->
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:020617,100:0f172a&text=Link%20Tracker&fontColor=ffffff&fontSize=56&fontAlign=50&fontAlignY=42&desc=Simple%20Link-in-Bio%20Analytics&descAlign=50&descAlignY=66"
+    alt="Link Tracker banner"
+  />
+</p>
+
+<!-- TYPING / MOTION INTRO -->
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Inter&size=18&pause=1200&color=94A3B8&center=true&vCenter=true&width=720&lines=Track+link+clicks+in+real+time.;Lightweight+analytics+with+a+simple+UI.;Built+to+be+clear%2C+not+complex."
+    alt="Typing animation"
+  />
+</p>
+
+---
 
 # Link Tracker
 
 A simple analytics tool that tracks link clicks and displays basic stats.
 
-## What This Is
-A small full stack project using multiple languages to show how a real web tool works.
-The code is fully visible and easy to understand.
+## What this is
 
-## What It Does
-- Tracks clicks on different links
-- Stores data locally
-- Displays live stats in the browser
+A small full-stack project designed to show how a real web tool works end-to-end.  
+The codebase is intentionally clear, readable, and easy to extend.
 
-## Tech Used
+## What it does
+
+- Tracks clicks on multiple links  
+- Stores data locally  
+- Displays live statistics in the browser  
+
+## Tech used
+
 - Python (Flask backend)
 - HTML (structure)
 - CSS (styling)
-- JavaScript (logic + requests)
+- JavaScript (logic and requests)
 
-## Project Structure
+## Project structure
+
+```txt
 link-tracker/
 ├── app.py
 ├── data.json
 ├── templates/
-│ └── index.html
+│   └── index.html
 └── static/
-├── style.css
-└── script.js
-## How to Run
-1. Install dependencies
-2. 
-2. Start the server  
-
-3. Open in browser  
-
-## Why I Built It
-To practice building a real tool with a backend, frontend, and persistent data while keeping everything simple and clean.
-
-## Notes
-This project can be expanded with charts, exports, authentication, or deployment later.
-
-
+    ├── style.css
+    └── script.js
